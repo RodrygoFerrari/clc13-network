@@ -1,6 +1,6 @@
-terraform {
+iterraform {
   backend "s3" {
-    bucket = "calheon-clc13-network-terraform-state"
+    bucket = "rodrygoferrari-clc13-network-terraform-state"
     key    = "network/state"
     region = "us-east-1"
   }
